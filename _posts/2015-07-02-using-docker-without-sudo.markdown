@@ -12,8 +12,9 @@ FATA[0000] Get http:///var/run/docker.sock/v1.17/info: dial unix /var/run/docker
 
 it's occur because my user is not in docker group, to fix:
 
-`sudo usermod -a -G docker $USERNAME`
-`newgrp Docker`
+`$ sudo usermod -a -G docker $USERNAME`
+
+`$ newgrp Docker`
 
 the last command login in the docker group in current shell
 
