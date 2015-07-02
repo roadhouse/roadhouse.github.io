@@ -14,7 +14,7 @@ it's occur because my user is not in docker group, to fix:
 
 `$ sudo usermod -a -G docker $USERNAME`
 
-`$ newgrp Docker`
+`$ newgrp docker`
 
 the last command login in the docker group in current shell
 
