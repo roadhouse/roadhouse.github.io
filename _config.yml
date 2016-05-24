@@ -1,14 +1,32 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: "Mind the Robot"
+email: jean.uchoa@gmail.com
+description: "my tech dump"
+baseurl: ""
+url: "http://roadhouse.github.io"
+title_description: "My personal blog about tech stuff and related sutff"
+title_image: "http://c7.staticflickr.com/1/38/96449422_ad9f5e82db_z.jpg"
+google_analytics: "UA-78248583-1"
+disqus_account: roadhousegithubio
+github_repository: https://github.com/roadhouse/roadhouse.github.io
+addthis_id: ra-57448e92bb684729
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: roudi
+github_username: roadhouse
+linkedin_link: https://www.linkedin.com/in/jeanuchoa
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
